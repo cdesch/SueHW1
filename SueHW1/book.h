@@ -23,7 +23,7 @@ private:
     
 public:
     //Constructor
-    Book(std::string t, PersonStruct a,std::string p, int y, int r);
+    Book(std::string t, PersonStruct a,std::string p, int y, int r); //This is the constructor
     //Deconstructor
     ~Book();
     
@@ -32,10 +32,15 @@ public:
     
     //Getters//
     std::string getTitle();
+    //****This is where you would put the function declarations for the getters!!
+    
+    //PersonStruct getAuthor();
     
     //Setters//
     void setTitle(std::string t);
+    //****This is where you would put the function declarations for the setters!!
     
+    //void setAuthor(PersonStruct person);
     
 };
 

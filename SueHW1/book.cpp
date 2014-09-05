@@ -4,25 +4,21 @@
 //
 //  Created by cj on 9/3/14.
 //  Copyright (c) 2014 KickinEspresso. All rights reserved.
-//
 
 #include "book.h"
 #include "personStruct.h"
 
-
 //Constructor with params
-Book::Book(std::string t, PersonStruct a,std::string p, int y, int r)
-{
+Book::Book(std::string t, PersonStruct a,std::string p, int y, int r){
     title = t;
     author = a;
     publisher = p;
     year = y;
     rating = r;
 }
+
 //Deconstructor
-Book::~Book()
-{
-    
+Book::~Book(){
 }
 
 //Member Functions//
@@ -44,8 +40,12 @@ std::string Book::getTitle(){
     return title;
 }
 
+//TODO: Create Getters for all the rest of the object attributes .... PersonStruct, publisher, year, rating... etc. Remember to put the function declarations in the header file****
+
 //SETTERS//
 
 void Book::setTitle(std::string t){
     title = title;
 }
+
+//TODO: Create Setters for all the rest of the object attributes .... PersonStruct, publisher, year, rating... etc. Remember to put the function declarations in the header file****

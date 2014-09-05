@@ -12,17 +12,18 @@
 
 class Person {
     
-    
+public:
     
     //Public attributes
     std::string lastName;
     std::string firstName;
     
     //Constructor
-    //
     Person(std::string last, std::string first);
-    ~Person();
+    ~Person(); //Deconstructor
     
+    //Member Functions//
+    void printName();
 };
 
 #endif

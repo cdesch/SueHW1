@@ -12,6 +12,7 @@
 		2360C07719B75BBC00F8777B /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2360C07619B75BBC00F8777B /* person.cpp */; };
 		2360C07A19B75DCB00F8777B /* personStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2360C07919B75DCB00F8777B /* personStruct.cpp */; };
 		2360C07D19B7610700F8777B /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2360C07C19B7610700F8777B /* book.cpp */; };
+		2360C0AB19BA305200F8777B /* sueObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2360C0AA19BA305200F8777B /* sueObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		2360C07919B75DCB00F8777B /* personStruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = personStruct.cpp; sourceTree = "<group>"; };
 		2360C07B19B760FC00F8777B /* book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = book.h; sourceTree = "<group>"; };
 		2360C07C19B7610700F8777B /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = book.cpp; sourceTree = "<group>"; };
+		2360C0A919BA304300F8777B /* sueObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sueObject.h; sourceTree = "<group>"; };
+		2360C0AA19BA305200F8777B /* sueObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sueObject.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				2360C06C19B75B7F00F8777B /* main.cpp */,
 				2360C06E19B75B7F00F8777B /* SueHW1.1 */,
+				2360C0A919BA304300F8777B /* sueObject.h */,
+				2360C0AA19BA305200F8777B /* sueObject.cpp */,
 				2360C07B19B760FC00F8777B /* book.h */,
 				2360C07C19B7610700F8777B /* book.cpp */,
 				2360C07519B75BAF00F8777B /* person.h */,
@@ -135,6 +140,7 @@
 				2360C07D19B7610700F8777B /* book.cpp in Sources */,
 				2360C07A19B75DCB00F8777B /* personStruct.cpp in Sources */,
 				2360C07719B75BBC00F8777B /* person.cpp in Sources */,
+				2360C0AB19BA305200F8777B /* sueObject.cpp in Sources */,
 				2360C06D19B75B7F00F8777B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
