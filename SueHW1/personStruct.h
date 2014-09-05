@@ -20,7 +20,9 @@ struct PersonStruct {
     std::string lastName;
     std::string firstName;
     
-    void printName();    
+    void printName();
+    std::string getName();
+    void setFullName(std::string fullname);
 };
 
 //Same with this guy down here

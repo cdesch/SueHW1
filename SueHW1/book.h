@@ -23,7 +23,7 @@ private:
     
 public:
     //Constructor
-    Book(std::string t, PersonStruct a,std::string p, int y, int r); //This is the constructor
+    Book(std::string t, PersonStruct a,std::string l,std::string p, int y, int r); //This is the constructor
     //Deconstructor
     ~Book();
     

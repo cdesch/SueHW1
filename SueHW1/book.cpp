@@ -9,9 +9,10 @@
 #include "personStruct.h"
 
 //Constructor with params
-Book::Book(std::string t, PersonStruct a,std::string p, int y, int r){
+Book::Book(std::string t, PersonStruct a,std::string l,std::string p, int y, int r){
     title = t;
     author = a;
+    language = l;
     publisher = p;
     year = y;
     rating = r;
